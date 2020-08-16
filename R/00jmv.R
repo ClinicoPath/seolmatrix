@@ -6,8 +6,8 @@
         `type`="software", 
         `author`="Seol, H.", 
         `year`=2020, 
-        `title`="seolmatrix", 
-        `publisher`="[jamovi module]. Retrieved from https://github.com/hyunsooseol/cormatrix/", 
+        `title`="seolmatrix: Correlations suite for jamovi", 
+        `publisher`="[jamovi module]. Retrieved from https://github.com/hyunsooseol/seolmatrix/", 
         `url`="https://github.com/hyunsooseol/seolmatrix"), 
     `psych`=list(
         `type`="software", 
@@ -22,4 +22,16 @@
         `year`=2012, 
         `title`="qgraph: Network Visualizations of Relationships in Psychometric Data", 
         `publisher`="[R package]. Retrieved from https://CRAN.R-project.org/package=qgraph", 
-        `url`="https://CRAN.R-project.org/package=qgraph"))
+        `url`="https://CRAN.R-project.org/package=qgraph"), 
+    `irr`=list(
+        `type`="software", 
+        `author`="Matthias Gamer and Jim Lemon and Ian Fellows Puspendra Singh", 
+        `year`=2019, 
+        `title`="irr: Various Coefficients of Interrater Reliability and Agreement", 
+        `url`="https://CRAN.R-project.org/package=irr"), 
+    `psy`=list(
+        `type`="software", 
+        `author`="Bruno Falissard", 
+        `year`=2012, 
+        `title`="psy: Various procedures used in psychometry", 
+        `url`="https://CRAN.R-project.org/package=psy"))

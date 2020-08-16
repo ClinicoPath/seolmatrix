@@ -1,0 +1,47 @@
+title: Rater Reliability
+name: rater
+jus: '3.0'
+stage: 0
+compilerMode: tame
+children:
+  - type: VariableSupplier
+    suggested:
+      - continuous
+      - ordinal
+    permitted:
+      - numeric
+    persistentItems: false
+    stretchFactor: 1
+    children:
+      - type: TargetLayoutBox
+        label: Variables
+        children:
+          - type: VariablesListBox
+            name: vars
+            isTarget: true
+  - type: LayoutBox
+    stretchFactor: 1
+    margin: large
+    children:
+      - type: Label
+        label: "Reliability"
+        fitToGrid: true
+        cell:
+          column: 0
+          row: 0
+        children:
+          - type: CheckBox
+            name: interrater
+          - type: CheckBox
+            name: icc
+          - type: CheckBox
+            name: bicc   
+      - type: Label
+        label: 'Plot'
+        fitToGrid: true
+        cell:
+          column: 1
+          row: 0          
+        children:
+          - type: CheckBox
+            name: ggm

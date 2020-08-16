@@ -55,7 +55,8 @@ dichotomousResults <- if (requireNamespace('jmvcore')) R6::R6Class(
                 options=options,
                 name="instructions",
                 title="Instructions",
-                visible=TRUE))
+                visible=TRUE,
+                refs="seolmatrix"))
             self$add(jmvcore::Table$new(
                 options=options,
                 name="matrix",
@@ -77,7 +78,7 @@ dichotomousResults <- if (requireNamespace('jmvcore')) R6::R6Class(
             self$add(jmvcore::Image$new(
                 options=options,
                 name="plot",
-                title="Show Gaussian Graphical Model",
+                title="Gaussian Graphical Model",
                 width=500,
                 height=500,
                 renderFun=".plot",
